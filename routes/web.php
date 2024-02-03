@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\controller_vew;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Home');
 });
+
+Route::get('/Search',[controller_vew::class,'Search']);
+Route::get('/Upload',[controller_vew::class,'Upload']);
+Route::get('/Library',[controller_vew::class,'Library']);
