@@ -7,23 +7,22 @@
     @vite(['resources/css/home.css'])
 </head>
 <body>
-<div class="card-container">
-  <div class="card">
-    <h2 onclick="window.location.href='pagina1.html'">Tarjeta 1</h2
-    <p onclick="window.location.href='pagina1.html'">Contenido de la tarjeta 1</p>
+
+
+<nav class="navbar">
+  <div class="logo">
+    <img src="ruta/al/logo.png" alt="Logo">
   </div>
-  <div class="card">
-    <h2 onclick="window.location.href='pagina2.html'">Tarjeta 2</h2
-    <p onclick="window.location.href='pagina2.html'">Contenido de la tarjeta 2</p>
+  <div class="nav-items">
+    <a href="/Sobre_Nosotros">Etiqueta 1</a>
+    <a href="#">Etiqueta 2</a>
+    <a href="#">Etiqueta 3</a>
   </div>
-  <div class="card">
-    <h2 onclick="window.location.href='pagina3.html'">Tarjeta 3</h2
-    <p onclick="window.location.href='pagina3.html'">Contenido de la tarjeta 3</p>
+  <div class="button">
+    <a href="#">Botón</a>
   </div>
-  <div class="card">
-    <h2 onclick="window.location.href='pagina4.html'">Tarjeta 4</h2
-    <p onclick="window.location.href='pagina4.html'">Contenido de la tarjeta 4</p>
-  </div>
-</div>
+</nav>
+
+
 </body>
 </html>

@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('Home');
 });
 
-Route::get('/Search',[controller_vew::class,'Search']);
-Route::get('/Upload',[controller_vew::class,'Upload']);
-Route::get('/Library',[controller_vew::class,'Library']);
+Route::get('/Sobre_Nosotros',[controller_vew::class,'About']);
+Route::get('/FAQ',[controller_vew::class,'FAQ']);
+Route::get('/NFT_TO_DOC',[controller_vew::class,'NFT']);
+Route::get('/Visualaizer',[controller_vew::class,'Visualaizer']);
+Route::get('/Forms',[controller_vew::class,'Forms']);

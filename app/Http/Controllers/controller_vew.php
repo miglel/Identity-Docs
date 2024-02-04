@@ -13,8 +13,23 @@ class controller_vew extends Controller
         return view('Home');
     }
 
-    function Library(){
-        return view('Library');
+    function About(){
+        return view('About');
     }
 
+    function FAQ(){
+        return view('FAQ');
+    }
+
+    function NFT(){
+        return view('NFTtoDOC');
+    }
+
+    function Forms(){
+        return view('Forms');
+    }
+
+    function Visualaizer(){
+        return view('Visualaizer');
+    }
 }
