@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Identity Docs</title>
-</head>
-
-<body>
-
     <h2>Issues:</h2>
     <p>
         The process of publishing academic work is fraught with obstacles. The need for intermediaries, such as specialized
@@ -102,6 +91,3 @@
     <p>For NFT creation, the author must complete a form with their details, including information from their personal
         wallet. We use canisters to manage transactions, where the prepaid wallet covers the associated gas costs.</p>
 
-</body>
-
-</html>
