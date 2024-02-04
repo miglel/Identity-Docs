@@ -1,39 +1,39 @@
-    <h2>Issues:</h2>
-    <p>
-        The process of publishing academic work is fraught with obstacles. The need for intermediaries, such as specialized
+<h2>Issues:</h2>
+<p>
+       The process of publishing academic work is fraught with obstacles. The need for intermediaries, such as specialized
         journals, involves payments for publication and annual fees to be a member of institutions like DOI or ISBN, which
         centralize knowledge and hinder its free distribution. This system limits the ability of any academic to
         independently publish their work and protect it against plagiarism. Additionally, it hinders the effective
         demonstration of authors' intellectual property, as publication through intermediaries does not always guarantee
         robust protection against the unauthorized use of academic documents.
-    </p>
+</p>
 
-    <h2>Identity Docs: Decentralized Storage Platform for Technological Universities in Mexico</h2>
-    <h3>Main Objective:</h3>
-    <p>
+<h2>Identity Docs: Decentralized Storage Platform for Technological Universities in Mexico</h2>
+<h3>Main Objective:</h3>
+<p>
         Facilitate the conversion of academic and research papers into NFTs (Non-Fungible Tokens) to prevent plagiarism,
         allowing authors to share their documents for free. Funded through a prepaid blockchain wallet, initially backed
         by third parties with the option to receive community donations.
-    </p>
+</p>
 
-    <h3>Brief Description:</h3>
-    <p>
+<h3>Brief Description:</h3>
+<p>
         Identity Docs is a decentralized storage platform aimed at members of Technological Universities in Mexico, where
         their academic or research papers are converted into NFTs that can be freely accessed by anyone.
-    </p>
+</p>
 
-    <h3>Key Benefits:</h3>
-    <ul>
-        <li>Plagiarism Prevention: Conversion to NFT protects intellectual property and discourages plagiarism of academic
+<h3>Key Benefits:</h3>
+<ul>
+<li>Plagiarism Prevention: Conversion to NFT protects intellectual property and discourages plagiarism of academic
             work.</li>
-        <li>Accessibility: NFT files are freely accessible, eliminating the need for user registration to access
+<li>Accessibility: NFT files are freely accessible, eliminating the need for user registration to access
             documents.</li>
-        <li>Secure Referencing: NFT tokens provide a unique identification for each document, facilitating accurate
+<li>Secure Referencing: NFT tokens provide a unique identification for each document, facilitating accurate
             referencing and citation.</li>
-    </ul>
+</ul>
 
-    <h2>Proposed Solution:</h2>
-    <p>
+<h2>Proposed Solution:</h2>
+<p>
         Our solution focuses on the development of an academic document search engine for sharing among researchers,
         prioritizing simplicity and accessibility. We emphasize that our platform is freely accessible; no login is
         required to view documents, and the uploading process is streamlined through a form requesting author details and
