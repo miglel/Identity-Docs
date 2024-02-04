@@ -3,12 +3,7 @@
 <html>
 <head>
     <title>Visualizador de PDF</title>
-    <style>
-        #viewerContainer {
-            width: 100%;
-            height: 100vh;
-        }
-    </style>
+    @vite(['resources/css/visualaizer.css'])
 </head>
 <body>
 
@@ -18,12 +13,18 @@
     <div style="width: 50%; padding: 20px;">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">FELICIDADES</h5>
+            <div class="container">
+                <div class="card">
+                        <img class="card-img-top" src="{{ asset('ruta/a/tu/imagen.jpg') }}" alt="Imagen de felicitación">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">FELICIDADES</h5>
+                        </div>
+                    </div>
+                </div>
                 <div class="tags">
                     <span class="badge badge-primary">Tag 1</span>
                     <span class="badge badge-secondary">Tag 2</span>
                     <span class="badge badge-success">Tag 3</span>
-
                 </div>
             </div>
         </div>
