@@ -22,5 +22,5 @@ Route::get('/FAQ',[controller_vew::class,'FAQ']);
 Route::get('/NFT_TO_DOC',[controller_vew::class,'NFT']);
 Route::get('/Visualaizer',[controller_vew::class,'Visualaizer']);
 Route::get('/Forms',[controller_vew::class,'Forms']);
-
+Route::get('/Wallet',[controller_vew::class,'Wallet']);
 Route::get('/visualizar-pdf', 'PdfController@visualizarPdf')->name('visualizar.pdf');

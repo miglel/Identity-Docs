@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<body>
+<body  style="background-image: url('{{ asset('img/f1.jpg') }}');">
     <div class="container">
         <h1>Publicar</h1>
         <form  method="POST">
@@ -19,8 +19,8 @@
                 <p class="sugerencia">¿No tienes wallet? Aquí tienes algunas sugerencias:</p>
                 <div class="sugerencias">
                     <a href="https://metamask.io/"><img src="https://imgs.search.brave.com/n3lKvAJXxwaBXTVR58ILQw0eQina5w1NDTPHr-VdI0A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9tZXRhbWFzay5z/dmc.svg" alt="Sugerencia 1"></a>
-                    <a href="https://www.ejemplo.com/pagina2"><img src="{{ asset('img/sugerencia2.png') }}" alt="Sugerencia 2"></a>
-                    <a href="https://www.ejemplo.com/pagina3"><img src="{{ asset('img/sugerencia3.png') }}" alt="Sugerencia 3"></a>
+                    <a href="https://metamask.io/"><img src="https://imgs.search.brave.com/n3lKvAJXxwaBXTVR58ILQw0eQina5w1NDTPHr-VdI0A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9tZXRhbWFzay5z/dmc.svg" alt="Sugerencia 1"></a>
+                    <a href="https://metamask.io/"><img src="https://imgs.search.brave.com/n3lKvAJXxwaBXTVR58ILQw0eQina5w1NDTPHr-VdI0A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9tZXRhbWFzay5z/dmc.svg" alt="Sugerencia 1"></a>
                 </div>
             </div>
             <div class="form-group">

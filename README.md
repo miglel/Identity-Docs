@@ -64,3 +64,44 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## How to run the project?
+
+First of all, to run the project properly, it is necessary to have a series of plugins, which we will list below:
+
+- Composer version 2.6.6
+- PHP version 8.2.12 / higher
+- Node v18.17.1
+- git version 2.40.0
+- xampp
+
+To ensure that we have the necessary dependencies, we can run the following commands in our command line:
+
+```bash
+git --version
+node --version
+php --version
+composer --version
+```
+Once we have all of the above, we can proceed with downloading the project. To do this, we must go to the directory C:\xampp\htdocs, where we will run the following git command:
+
+```bash
+git clone https://github.com/miglel/Identity-Docs.git
+```
+Press enter, and the project will start to download. Once downloaded, open the entire project using your favorite code editor. For this example, we will use Visual Studio Code. To open the project, press ctrl + j to open the console and split it to have two consoles at the same time. In one of the two consoles, run the command:
+
+```bash
+npm install
+```
+
+After the previous command finishes, we are ready to run the project. Since we are working with vite for the styles, we need to start two servers. To do this, run the following commands in each console:
+
+```bash
+npm run dev
+php artisan serv
+```
+
+With this, the execution will start on the designated port.
+```bash
+http://127.0.0.1:8000
+```

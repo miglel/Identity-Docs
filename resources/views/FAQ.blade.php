@@ -11,6 +11,9 @@
             margin: 0;
             padding: 0;
             background-color: #f8f9fa;
+            background-size: cover;
+            background-position: center;
+            color: #ddd;
         }
 
         .container {
@@ -50,7 +53,7 @@
     </style>
 </head>
 
-<body>
+<body style="background-image: url('{{ asset('img/f2.jpg') }}');" >
 
     <div class="container">
         <section id="que-es-un-nft" class="mb-4">

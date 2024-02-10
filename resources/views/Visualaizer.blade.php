@@ -10,7 +10,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-image: url('{{ asset('img/f1.jpg') }}');" >
 
 
 <div id="viewerContainer" style="display: flex;">

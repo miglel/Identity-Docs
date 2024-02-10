@@ -17,6 +17,10 @@ class controller_vew extends Controller
         return view('About');
     }
 
+    function Wallet(){
+        return view('wallet');
+    }
+
     function FAQ(){
         return view('FAQ');
     }

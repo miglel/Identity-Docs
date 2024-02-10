@@ -6,11 +6,11 @@
     <title>Home</title>
     @vite(['resources/css/home.css'])
 </head>
-<body>
+<body style="background-image: url('{{ asset('img/f1.jpg') }}');">
 
 <nav class="navbar">
   <div class="logo">
-    <img src="ruta/al/logo.png" alt="Logo">
+    <img src="../public/img/logo.jpeg alt="Logo">
   </div>
   <div class="nav-items">
     <a href="/Sobre_Nosotros">Sobre Nosotros</a>
@@ -76,7 +76,9 @@
       <a href="#">Saber más</a>
     </div>
     <div class="footer-button">
-      <button>Saber más</button>
+      <div class="button">
+        <a href="/Wallet">Saber mas</a>
+      </div>  
     </div>
   </div>
 </footer>

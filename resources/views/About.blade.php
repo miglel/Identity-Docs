@@ -10,7 +10,9 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
+            background-size: cover;
+            background-position: center;
+            color: #ddd;
         }
 
         .container {
@@ -37,7 +39,7 @@
     </style>
 </head>
 
-<body>
+<bod style="background-image: url('{{ asset('img/f1.jpg') }}');" y>
 
     <div class="container">
         <section id="quienes-somos">
