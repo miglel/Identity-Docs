@@ -7,6 +7,7 @@
     <title>Apoyo a la Creación de NFTs</title>
     <style>
         body {
+            background-image: linear-gradient(143deg, rgba(206, 212, 218, 0) 0%, rgba(184, 102, 166, 0.7) 3%, rgba(210, 66, 66, 0.77) 39%, rgba(201, 113, 97, 0.87) 75%, rgba(236, 140, 105, 0.92) 90%);
             font-family: 'Arial', sans-serif;
             background-color: #f8f9fa;
             color: #495057;

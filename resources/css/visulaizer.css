@@ -1,10 +1,91 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url("{{ asset('img/f2.jpg') }}");
-    background-size: cover;
-    background-position: center;
-    color: #ddd;
-    
-  }
+  background-image: linear-gradient(90deg, rgba(206, 212, 218, 0) 0%, rgba(184, 102, 166, 0.57) 44%, rgba(210, 66, 66, 0.65) 65%, rgba(201, 113, 97, 0.69) 77%, rgba(236, 140, 105, 0.79) 90%);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#viewerContainer {
+  display: flex;
+}
+
+#pdfViewer {
+  width: 50%;
+  height: 100vh;
+  border: none;
+}
+
+.pdf-info {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tags-container {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 3px 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.tag:hover {
+  background-color: #e0e0e0;
+}
+
+.json-container {
+  margin-top: 10px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.2); /* Negro casi transparente */
+  color: white;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  border: 5px solid rgba(0, 0, 0, 0.1); /* Borde negro casi transparente */
+}
+
+.json-title {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0); /* Fondo gris suave semitransparente */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 0; /* Eliminar margen inferior */
+}
+.button-container {
+  margin-top: 20px;
+  padding: 0 20px; /* Ajuste del espacio alrededor del botón */
+  width: 50%; /* El botón ocupa la mitad derecha del contenedor */
+  box-sizing: border-box;
+}
+
+#btn-goto-home {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0; /* Gris claro */
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn-goto-home:hover {
+  background-color: #e0e0e0; /* Gris un poco más oscuro al pasar el ratón */
+}

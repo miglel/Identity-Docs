@@ -7,13 +7,83 @@
     <title>Preguntas y Respuestas sobre NFTs, DOIs y ISBNs</title>
     <style>
         body {
+            background-image: linear-gradient(90deg, rgba(206, 212, 218, 0) 0%, rgba(184, 102, 166, 0.49) 13%, rgba(210, 66, 66, 0.47) 46%, rgba(201, 113, 97, 0.59) 67%, rgba(236, 140, 105, 0.56) 88%);
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
-            background-size: cover;
-            background-position: center;
-            color: #ddd;
+
+        }
+        .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #db5050b2;
+        border-bottom: 1px solid #dddddd00;
+
+        }
+
+        .logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        }
+
+        .nav-items {
+        display: flex;
+        gap: 20px;
+        }
+
+        .nav-items a {
+        color: #333;
+        text-decoration: none;
+        font-size: 18px;
+        }
+
+        .navbar a {
+        text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+        position: relative;
+        }
+
+        .navbar a:hover {
+        text-decoration: none; /* Evita que el subrayado predeterminado aparezca al pasar el ratón */
+        }
+
+        .navbar a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px; /* Altura de la línea de subrayado */
+        bottom: 0;
+        left: 0;
+        background-color: #000; /* Color del subrayado */
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease; /* Transición suave para el efecto de subrayado */
+        }
+
+        .navbar a:hover::after {
+        visibility: visible;
+        transform: scaleX(1);
+        }
+
+
+
+
+
+        .button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        }
+
+        .button a {
+        background-color: #dddddd21;
+        border-radius: 50px;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
         }
 
         .container {
@@ -53,8 +123,22 @@
     </style>
 </head>
 
-<body style="background-image: url('{{ asset('img/f2.jpg') }}');" >
-
+<body  >
+<nav class="navbar">
+  <div class="logo">
+    <a href="/">
+      <img src="{{ asset('img/logo.png')}}" alt="Logo" style="border-radius: 50%; width: 100px; height: 100px;">
+    </a>
+  </div>
+  <div class="nav-items">
+    <a href="/Sobre_Nosotros">Sobre Nosotros</a>
+    <a href="/FAQ">FAQ</a>
+    <a href="/NFT_TO_DOC">Document to NFT</a>
+  </div>
+  <div class="button">
+    <a href="/Forms">Crear</a>
+  </div>
+</nav>
     <div class="container">
         <section id="que-es-un-nft" class="mb-4">
             <h2>¿Qué es un NFT?</h2>

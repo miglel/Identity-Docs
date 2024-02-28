@@ -6,11 +6,13 @@
     <title>Home</title>
     @vite(['resources/css/home.css'])
 </head>
-<body style="background-image: url('{{ asset('img/f1.jpg') }}');">
+
+
+<body>
 
 <nav class="navbar">
   <div class="logo">
-    <img src="../public/img/logo.jpeg alt="Logo">
+  <img src="{{ asset('img/logo.png')}}" alt="Logo" style="border-radius: 50%; width: 100px; height: 100px;">
   </div>
   <div class="nav-items">
     <a href="/Sobre_Nosotros">Sobre Nosotros</a>
@@ -22,13 +24,16 @@
   </div>
 </nav>
 
+
+
 <div class="search-container">
   <div class="search-filters">
     <select>
       <option>Todos</option>
       <option>MATEMATICAS</option>
-      <option>fisica</option>
+      <option>FISICA</option>
       <option>QUIMiCA</option>
+      <option>MORE...</option>
     </select>
   </div>
   <div class="search-input">
@@ -37,51 +42,53 @@
   <div class="search-button">
     <button>Buscar</button>
   </div>
-
-
 </div>
-<div class="container">
-        <div class="card">
-            <img src="https://imgs.search.brave.com/A3-uCUb8JNV8ukiosKQ-q8xCIU7Am6D4WNtfFRfuUZM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudmV4ZWxzLmNv/bS9tZWRpYS91c2Vy/cy8zLzEzNTk4MS9p/c29sYXRlZC9wcmV2/aWV3L2E3NmRhMDRj/ODhjYWEyMDk4MDU2/OGY0OTEwN2Q5MDhl/LWljb25vLWRlLWNh/cnBldGEtZGUtZG9j/dW1lbnRvcy5wbmc" alt="Imagen 1">
-            <h2>Título 1</h2>
-        </div>
-        <div class="card">
-            <img src="https://imgs.search.brave.com/A3-uCUb8JNV8ukiosKQ-q8xCIU7Am6D4WNtfFRfuUZM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudmV4ZWxzLmNv/bS9tZWRpYS91c2Vy/cy8zLzEzNTk4MS9p/c29sYXRlZC9wcmV2/aWV3L2E3NmRhMDRj/ODhjYWEyMDk4MDU2/OGY0OTEwN2Q5MDhl/LWljb25vLWRlLWNh/cnBldGEtZGUtZG9j/dW1lbnRvcy5wbmc" alt="Imagen 2">
-            <h2>Título 2</h2>
-        </div>
-        <div class="card">
-            <img src="https://imgs.search.brave.com/A3-uCUb8JNV8ukiosKQ-q8xCIU7Am6D4WNtfFRfuUZM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudmV4ZWxzLmNv/bS9tZWRpYS91c2Vy/cy8zLzEzNTk4MS9p/c29sYXRlZC9wcmV2/aWV3L2E3NmRhMDRj/ODhjYWEyMDk4MDU2/OGY0OTEwN2Q5MDhl/LWljb25vLWRlLWNh/cnBldGEtZGUtZG9j/dW1lbnRvcy5wbmc" alt="Imagen 3">
-            <h2>Título 3</h2>
-        </div>
-        <div class="card">
-            <img src="https://imgs.search.brave.com/A3-uCUb8JNV8ukiosKQ-q8xCIU7Am6D4WNtfFRfuUZM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudmV4ZWxzLmNv/bS9tZWRpYS91c2Vy/cy8zLzEzNTk4MS9p/c29sYXRlZC9wcmV2/aWV3L2E3NmRhMDRj/ODhjYWEyMDk4MDU2/OGY0OTEwN2Q5MDhl/LWljb25vLWRlLWNh/cnBldGEtZGUtZG9j/dW1lbnRvcy5wbmc" alt="Imagen 4">
-            <h2>Título 4</h2>
-        </div>
-        <div class="card">
-            <img src="https://imgs.search.brave.com/A3-uCUb8JNV8ukiosKQ-q8xCIU7Am6D4WNtfFRfuUZM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudmV4ZWxzLmNv/bS9tZWRpYS91c2Vy/cy8zLzEzNTk4MS9p/c29sYXRlZC9wcmV2/aWV3L2E3NmRhMDRj/ODhjYWEyMDk4MDU2/OGY0OTEwN2Q5MDhl/LWljb25vLWRlLWNh/cnBldGEtZGUtZG9j/dW1lbnRvcy5wbmc" alt="Imagen 5">
-            <h2>Título 5</h2>
-        </div>
-        <div class="card">
-            <img src="https://imgs.search.brave.com/A3-uCUb8JNV8ukiosKQ-q8xCIU7Am6D4WNtfFRfuUZM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudmV4ZWxzLmNv/bS9tZWRpYS91c2Vy/cy8zLzEzNTk4MS9p/c29sYXRlZC9wcmV2/aWV3L2E3NmRhMDRj/ODhjYWEyMDk4MDU2/OGY0OTEwN2Q5MDhl/LWljb25vLWRlLWNh/cnBldGEtZGUtZG9j/dW1lbnRvcy5wbmc" alt="Imagen 6">
-            <h2>Título 6</h2>
-        </div>
- </div>
 
- <footer>
-  <div class="footer-content">
-    <div class="footer-text">
-      <p>Nuestra wallet</p>
+
+<div class="card-container">
+  <div class="card">
+    <div class="card-header">
+      <h2>Título de la Tarjeta</h2>
     </div>
-    <div class="footer-link">
-      <a href="#">Saber más</a>
-    </div>
-    <div class="footer-button">
-      <div class="button">
-        <a href="/Wallet">Saber mas</a>
-      </div>  
+    <div class="card-content">
+      <p>Contenido de la tarjeta.</p>
     </div>
   </div>
+  <div class="card">
+    <div class="card-header">
+      <h2>Título de la Tarjeta</h2>
+    </div>
+    <div class="card-content">
+      <p>Contenido de la tarjeta.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <h2>Título de la Tarjeta</h2>
+    </div>
+    <div class="card-content">
+      <p>Contenido de la tarjeta.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <h2>Título de la Tarjeta</h2>
+    </div>
+    <div class="card-content">
+      <p>Contenido de la tarjeta.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-content">
+    <p>
+      <a href="/Wallet">Nuestra Wallet</a> |
+      <a href="">Ayudanos a seguir con este proyecto</a> 
+    </p>
+  </div>
 </footer>
+
 
 </body>
 </html>
