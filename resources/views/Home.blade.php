@@ -37,10 +37,10 @@
     </select>
   </div>
   <div class="search-input">
-    <input type="text" placeholder="Buscar...">
+    <input type="text" placeholder="Buscar..." >
   </div>
   <div class="search-button">
-    <button>Buscar</button>
+    <button onclick="window.location.href = '/Visualaizer';">Buscar</button>
   </div>
 </div>
 
@@ -48,7 +48,10 @@
 <div class="card-container">
   <div class="card">
     <div class="card-header">
-      <h2>Título de la Tarjeta</h2>
+      <!-- Título quitado -->
+    </div>
+    <div class="card-image">
+      <img src="{{ asset('img/logo.png')}}" alt="Imagen 1">
     </div>
     <div class="card-content">
       <p>Contenido de la tarjeta.</p>
@@ -56,7 +59,10 @@
   </div>
   <div class="card">
     <div class="card-header">
-      <h2>Título de la Tarjeta</h2>
+      <!-- Título quitado -->
+    </div>
+    <div class="card-image">
+      <img src="{{ asset('img/logo.png')}}" alt="Imagen 1">
     </div>
     <div class="card-content">
       <p>Contenido de la tarjeta.</p>
@@ -64,7 +70,10 @@
   </div>
   <div class="card">
     <div class="card-header">
-      <h2>Título de la Tarjeta</h2>
+      <!-- Título quitado -->
+    </div>
+    <div class="card-image">
+      <img src="{{ asset('img/logo.png')}}" alt="Imagen 1">
     </div>
     <div class="card-content">
       <p>Contenido de la tarjeta.</p>
@@ -72,13 +81,20 @@
   </div>
   <div class="card">
     <div class="card-header">
-      <h2>Título de la Tarjeta</h2>
+      <!-- Título quitado -->
+    </div>
+    <div class="card-image">
+      <img src="{{ asset('img/logo.png')}}" alt="Imagen 1">
     </div>
     <div class="card-content">
       <p>Contenido de la tarjeta.</p>
     </div>
   </div>
+  <!-- Repite para otras tarjetas -->
 </div>
+
+
+
 
 <footer>
   <div class="footer-content">

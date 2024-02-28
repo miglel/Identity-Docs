@@ -10,10 +10,10 @@
 <body>
 
 <div id="viewerContainer">
-    <iframe id="pdfViewer" src="{{ asset('pdf/mind.pdf') }}"></iframe>
+    <iframe id="pdfViewer" src="{{ asset('pdf/p1.pdf') }}"></iframe>
     <div class="pdf-info">
         <div class="card">
-            <h5>FELICIDADES</h5>
+            <h5>FELICIDADES TUDOCUMENTO SE CARGO CON EXITO</h5>
             <div class="tags-container">
                 <span class="tag">Tag 1</span>
                 <span class="tag">Tag 2</span>
